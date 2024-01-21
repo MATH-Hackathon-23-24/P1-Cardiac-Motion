@@ -3,7 +3,7 @@ Utilise (dynamic) heart models based on manifold-valued Bézier splines to estim
 
 <img width="1248" alt="Bildschirmfoto 2022-03-04 um 21 06 51" src="https://user-images.githubusercontent.com/17784338/156834100-9cf8d877-fa4a-40c3-bd7d-78f1f53d919b.png">
 
-> **_Note:_** Make sure to used the newest verson of [Morphomatics](morphomatics.github.io):
+> **_Note:_** Make sure to use the newest version of [Morphomatics](https://morphomatics.github.io):
 ```bash
 pip install -U git+https://github.com/morphomatics/morphomatics.git#egg=morphomatics
 ```
