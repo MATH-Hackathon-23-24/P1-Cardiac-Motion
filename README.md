@@ -3,7 +3,14 @@ Utilise (dynamic) heart models based on manifold-valued Bézier splines to estim
 
 ![Screenshot](docs/images/pipeline.png)
 
-> **_Note:_** Make sure to use the newest version of [Morphomatics](https://morphomatics.github.io):
+Our main focus was on capturing the full motion cycle of the left ventricles middle slice in shape space and computing the mean motion for 
+four groups (DCM, HCM, and MINF have heart diseases, NOR consists of healthy patients). 
+We then used the computed mean trajectories to classify unseen slice motions according to the diseases given in the ACDC database. 
+The picture below shows snapshots of each group's mean motion and of an unseen patient that was to be classified. The results are in the final slides.
+
+![Screenshot](docs/images/question.png)
+
+> **_Note:_** When running the notebooks, make sure to use the newest version of [Morphomatics](https://morphomatics.github.io):
 ```bash
 pip install -U git+https://github.com/morphomatics/morphomatics.git#egg=morphomatics
 ```
